@@ -1,0 +1,1 @@
+# CollinsRachel-qr-code-component-main
