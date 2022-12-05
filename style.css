@@ -1,0 +1,62 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    justify-content: center;
+    display: flex;
+}
+
+ul.demo{
+    list-style-type: none;
+    margin-right: 30px; 
+}                      
+
+.qrcode-card {
+    border-radius: 10px;
+    margin:10%;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    flex-direction: column;
+    font-family: 'Outfit', sans-serif;
+    max-width: 300px;
+    min-height: 300px;
+}
+
+img {
+    border-radius: 15px;
+    display: inline;
+    /*object-fit: scale-down; */
+    margin-left: auto;
+    margin-right: auto; 
+    width: 100%;
+}
+
+li {
+    word-wrap: break-word;
+}
+
+.attribution {
+    font-size: 11 px; 
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%)
+}
+
+.content {
+    font-size: 15px;
+    word-wrap: break-word;
+    justify-content: center;
+}
+
+.call2action{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+}
+
+.instruction {
+    padding-top: 5%;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
